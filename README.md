@@ -27,6 +27,7 @@ The same chromatogram in the noisy 3th file is shown below:
 
 ![Example 4](pics/exp4.png)
 
-
+# Solution
+Here I have tried to summarize the result. In IntelliJ IDE the peaks (with start and end area) are detected and output to the console as well as automatically saved in a .txt file (format see in the picture below). Furthermore the Smooth and Not Smooth chromatograms are saved in a .txt file (for further processing e.g. in Python). On the right side of the picture is the visualization of the result. Here it can be seen that for the area under consideration the peaks output in Java are actually the peaks we want. The code works fine. In addition, a Python code was developed for visualization/verification.
 ![End Solution](pics/sol_end.png)
 
